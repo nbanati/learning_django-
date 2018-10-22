@@ -1,2 +1,2 @@
-# learning_django-
+# learning_django
 learning django
