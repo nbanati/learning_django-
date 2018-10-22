@@ -1,0 +1,14 @@
+<html>
+<body>
+this is  article list
+<div class="myarticles">
+    {% for i in articles %}
+        <div class="myarticle">
+            <h3><a href="#">{{i.title}}</a></h3>
+            <p>{{i.mysnippet}}</p>
+            <p>{{i.date}}</p>
+        </div>
+    {% endfor %}
+</div>
+</body>
+</html>
